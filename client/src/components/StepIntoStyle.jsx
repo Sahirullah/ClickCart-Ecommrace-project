@@ -1,6 +1,9 @@
 import './StepIntoStyle.css'
+import { useState } from 'react'
 
 export default function StepIntoStyle() {
+  const [imageErrors, setImageErrors] = useState({})
+
   const products = [
     { id: 1, name: 'Jordan Air Max', price: 'pkr:150', originalPrice: 'pkr:300', image: 'https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=200&h=200&fit=crop' },
     { id: 2, name: 'Nike SB Dunk', price: 'pkr:140', originalPrice: 'pkr:280', image: 'https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=200&h=200&fit=crop' },
@@ -13,6 +16,15 @@ export default function StepIntoStyle() {
     { id: 9, name: 'Asics Gel-Lyte', price: 'pkr:130', originalPrice: 'pkr:280', image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop' },
   ]
 
+  const handleImageError = (productId) => {
+    setImageErrors(prev => ({
+      ...prev,
+      [productId]: true
+    }))
+  }
+
+  const placeholderImage = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Crect fill="%23f0f0f0" width="200" height="200"/%3E%3Ctext x="50%25" y="50%25" font-size="14" fill="%23999" text-anchor="middle" dy=".3em"%3EProduct Image%3C/text%3E%3C/svg%3E'
+
   return (
     <section className="step-into-style">
       <div className="container">
@@ -21,7 +33,11 @@ export default function StepIntoStyle() {
           {products.map(product => (
             <div key={product.id} className="style-product-card">
               <div className="style-product-image">
-                <img src={product.image} alt={product.name} />
+                <img 
+                  src={imageErrors[product.id] ? placeholderImage : product.image} 
+                  alt={product.name}
+                  onError={() => handleImageError(product.id)}
+                />
               </div>
               <h4>{product.name}</h4>
               <div className="style-price-section">

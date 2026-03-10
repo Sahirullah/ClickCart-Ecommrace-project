@@ -39,6 +39,7 @@ const products = [
 export default function PopularProducts() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [favorites, setFavorites] = useState({})
+  const [imageErrors, setImageErrors] = useState({})
 
   const handleNext = () => {
     setCurrentIndex((prev) => (prev + 1) % products.length)
@@ -55,6 +56,15 @@ export default function PopularProducts() {
     }))
   }
 
+  const handleImageError = (productId) => {
+    setImageErrors(prev => ({
+      ...prev,
+      [productId]: true
+    }))
+  }
+
+  const placeholderImage = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Crect fill="%23f0f0f0" width="200" height="200"/%3E%3Ctext x="50%25" y="50%25" font-size="14" fill="%23999" text-anchor="middle" dy=".3em"%3EProduct Image%3C/text%3E%3C/svg%3E'
+
   return (
     <section className="popular-products">
       <div className="container">
@@ -70,7 +80,12 @@ export default function PopularProducts() {
           {products.map((product) => (
             <div key={product.id} className="product-card">
               <div className="product-image-container">
-                <img src={product.image} alt={product.name} className="product-image" />
+                <img 
+                  src={imageErrors[product.id] ? placeholderImage : product.image} 
+                  alt={product.name} 
+                  className="product-image"
+                  onError={() => handleImageError(product.id)}
+                />
                 
                 <div className="product-badges">
                   <button 

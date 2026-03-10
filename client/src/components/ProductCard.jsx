@@ -3,6 +3,9 @@ import React, { useState } from 'react';
 function ProductCard({ product, onAddToCart }) {
   const [isHovered, setIsHovered] = useState(false);
   const [isFavorite, setIsFavorite] = useState(false);
+  const [imageError, setImageError] = useState(false);
+
+  const placeholderImage = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="250" height="250"%3E%3Crect fill="%23f0f0f0" width="250" height="250"/%3E%3Ctext x="50%25" y="50%25" font-size="16" fill="%23999" text-anchor="middle" dy=".3em"%3EProduct Image%3C/text%3E%3C/svg%3E'
 
   return (
     <div 
@@ -11,7 +14,12 @@ function ProductCard({ product, onAddToCart }) {
       onMouseLeave={() => setIsHovered(false)}
     >
       <div className="product-image-container">
-        <img src={product.image} alt={product.name} className="product-image" />
+        <img 
+          src={imageError ? placeholderImage : product.image} 
+          alt={product.name} 
+          className="product-image"
+          onError={() => setImageError(true)}
+        />
         
         <div className="product-badges">
           <button 
