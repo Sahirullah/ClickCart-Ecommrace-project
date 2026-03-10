@@ -1,6 +1,6 @@
 .lifestyle-section {
   padding: 120px 0;
-  background: #000000;
+  background: #f5f5f5;
   position: relative;
   overflow: hidden;
 }
@@ -37,12 +37,12 @@
   font-weight: 800;
   margin-bottom: 24px;
   line-height: 1.2;
-  color: #000;
+  color: #333333;
 }
 
 .lifestyle-text p {
   font-size: 16px;
-  color: #333;
+  color: #666666;
   margin-bottom: 32px;
   line-height: 1.6;
 }
@@ -60,7 +60,7 @@
   gap: 12px;
   font-weight: 600;
   font-size: 15px;
-  color: #000;
+  color: #333333;
 }
 
 .feature-icon {
@@ -77,7 +77,7 @@
 }
 
 .btn-primary {
-  background-color: #000;
+  background-color: #333333;
   color: white;
   padding: 14px 32px;
   border: none;

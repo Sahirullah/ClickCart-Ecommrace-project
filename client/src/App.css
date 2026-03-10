@@ -6,12 +6,12 @@
 
 :root {
   --primary: #dc143c;
-  --secondary: #000;
-  --text-dark: #ffffff;
-  --text-light: #cccccc;
-  --bg-light: #1a1a1a;
-  --bg-white: #000000;
-  --border: #333333;
+  --secondary: #f5f5f5;
+  --text-dark: #333333;
+  --text-light: #666666;
+  --bg-light: #f5f5f5;
+  --bg-white: #f5f5f5;
+  --border: #e0e0e0;
   --blue: #5b5bff;
   --yellow: #ffd700;
 }
@@ -20,7 +20,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   color: var(--text-dark);
-  background: #000000;
+  background: #f5f5f5;
 }
 
 .app {
@@ -38,7 +38,7 @@ body {
 
 /* BUTTONS */
 .btn-primary {
-  background: var(--secondary);
+  background: #333333;
   color: white;
   border: none;
   padding: 14px 32px;
@@ -56,8 +56,8 @@ body {
 
 .btn-secondary {
   background: transparent;
-  color: var(--text-dark);
-  border: 2px solid var(--text-dark);
+  color: #333333;
+  border: 2px solid #333333;
   padding: 14px 32px;
   border-radius: 8px;
   font-weight: 600;
@@ -67,7 +67,7 @@ body {
 }
 
 .btn-secondary:hover {
-  background: var(--text-dark);
+  background: #333333;
   color: white;
   transform: translateY(-2px);
 }
@@ -91,8 +91,8 @@ body {
 
 /* HEADER */
 .header {
-  background: var(--bg-white);
-  border-bottom: 1px solid var(--border);
+  background: #f5f5f5;
+  border-bottom: 1px solid #e0e0e0;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -122,7 +122,7 @@ body {
 
 .nav-menu a {
   text-decoration: none;
-  color: var(--text-dark);
+  color: #333333;
   font-size: 0.95rem;
   font-weight: 500;
   transition: color 0.3s ease;
@@ -141,7 +141,7 @@ body {
   background: none;
   border: none;
   cursor: pointer;
-  color: var(--text-dark);
+  color: #333333;
   font-size: 1.2rem;
   transition: color 0.3s ease;
   position: relative;
@@ -325,8 +325,8 @@ body {
 }
 
 .carousel-btn {
-  background: var(--bg-light);
-  border: 1px solid var(--border);
+  background: #f5f5f5;
+  border: 1px solid #e0e0e0;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -337,6 +337,7 @@ body {
   justify-content: center;
   transition: all 0.3s ease;
   font-weight: 600;
+  color: #333333;
 }
 
 .carousel-btn:hover {
@@ -352,7 +353,7 @@ body {
 }
 
 .product-card {
-  background: var(--bg-white);
+  background: #ffffff;
   border-radius: 8px;
   overflow: hidden;
   transition: all 0.3s ease;
@@ -369,7 +370,7 @@ body {
   width: 100%;
   padding-bottom: 100%;
   overflow: hidden;
-  background: var(--bg-light);
+  background: #f5f5f5;
 }
 
 .product-badges {
@@ -404,7 +405,7 @@ body {
   font-size: 0.95rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: var(--text-dark);
+  color: #333333;
 }
 
 .product-colors {
@@ -455,7 +456,7 @@ body {
   cursor: pointer;
   font-size: 0.75rem;
   font-weight: 600;
-  color: var(--text-dark);
+  color: #333333;
   display: flex;
   align-items: center;
   gap: 0.4rem;
@@ -524,7 +525,7 @@ body {
 
 .favorite-btn {
   position: relative;
-  background: white;
+  background: #ffffff;
   border: none;
   width: 36px;
   height: 36px;
@@ -549,7 +550,7 @@ body {
 }
 
 .compare-btn {
-  background: white;
+  background: #ffffff;
   border: none;
   width: 36px;
   height: 36px;
@@ -559,7 +560,7 @@ body {
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
-  color: var(--text-dark);
+  color: #333333;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -572,7 +573,7 @@ body {
 
 /* FIND PERFECT */
 .find-perfect {
-  background: var(--bg-white);
+  background: #ffffff;
   padding: 4rem 2rem;
 }
 
@@ -694,7 +695,7 @@ body {
 
 /* STEP INTO STYLE */
 .step-into-style {
-  background: var(--bg-light);
+  background: #f5f5f5;
   padding: 4rem 2rem;
 }
 
@@ -718,7 +719,7 @@ body {
 }
 
 .style-card {
-  background: white;
+  background: #ffffff;
   border-radius: 8px;
   overflow: hidden;
   text-align: center;
@@ -741,7 +742,7 @@ body {
   font-size: 0.95rem;
   font-weight: 600;
   padding: 1rem 1rem 0.5rem;
-  color: var(--text-dark);
+  color: #333333;
 }
 
 .style-card .price {
@@ -813,7 +814,7 @@ body {
   align-items: center;
   gap: 1rem;
   font-weight: 600;
-  color: var(--text-dark);
+  color: #333333;
 }
 
 .feature-icon {

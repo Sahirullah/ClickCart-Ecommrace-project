@@ -1,6 +1,6 @@
 .bottom-promo {
   padding: 4rem 2rem;
-  background-color: #000000;
+  background-color: #f5f5f5;
 }
 
 .bottom-promo-content {
@@ -43,11 +43,12 @@
   font-weight: 800;
   margin-bottom: 1rem;
   line-height: 1.2;
+  color: #333333;
 }
 
 .bottom-promo-text p {
   font-size: 1rem;
-  color: #666;
+  color: #666666;
   margin-bottom: 2rem;
   line-height: 1.6;
 }
