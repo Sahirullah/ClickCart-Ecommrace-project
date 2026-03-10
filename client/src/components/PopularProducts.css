@@ -1,6 +1,6 @@
 .popular-products {
   padding: 100px 0;
-  background-color: white;
+  background-color: #000000;
 }
 
 .section-header {
@@ -13,7 +13,7 @@
 .section-header h2 {
   font-size: 42px;
   font-weight: 800;
-  color: #000;
+  color: #ffffff;
 }
 
 .carousel-controls {
@@ -24,14 +24,14 @@
 .carousel-btn {
   width: 50px;
   height: 50px;
-  border: 2px solid #e0e0e0;
-  background-color: white;
+  border: 2px solid #333333;
+  background-color: #1a1a1a;
   border-radius: 50%;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #333;
+  color: #ffffff;
   font-size: 20px;
   transition: all 0.3s ease;
   font-weight: 600;
@@ -50,14 +50,14 @@
 }
 
 .product-card {
-  background-color: white;
+  background-color: #1a1a1a;
   border-radius: 16px;
   overflow: hidden;
   transition: all 0.3s ease;
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  border: 1px solid #f0f0f0;
+  border: 1px solid #333333;
 }
 
 .product-card:hover {
@@ -98,13 +98,13 @@
 .product-name {
   font-size: 15px;
   font-weight: 600;
-  color: #000;
+  color: #ffffff;
   line-height: 1.4;
 }
 
 .product-colors {
   font-size: 13px;
-  color: #999;
+  color: #999999;
 }
 
 .product-footer {
@@ -113,7 +113,7 @@
   align-items: center;
   margin-top: auto;
   padding-top: 16px;
-  border-top: 1px solid #f0f0f0;
+  border-top: 1px solid #333333;
   gap: 12px;
 }
 

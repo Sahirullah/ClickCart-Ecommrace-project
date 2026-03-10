@@ -7,11 +7,11 @@
 :root {
   --primary: #dc143c;
   --secondary: #000;
-  --text-dark: #1a1a1a;
-  --text-light: #666;
-  --bg-light: #f8f8f8;
-  --bg-white: #fff;
-  --border: #e0e0e0;
+  --text-dark: #ffffff;
+  --text-light: #cccccc;
+  --bg-light: #1a1a1a;
+  --bg-white: #000000;
+  --border: #333333;
   --blue: #5b5bff;
   --yellow: #ffd700;
 }
@@ -20,7 +20,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   color: var(--text-dark);
-  background: var(--bg-white);
+  background: #000000;
 }
 
 .app {
