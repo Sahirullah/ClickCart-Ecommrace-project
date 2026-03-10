@@ -1,11 +1,12 @@
 import './Header.css'
+import clickcartLogo from '../assets/clickcart.png'
 
 export default function Header() {
   return (
     <header className="header">
       <div className="container header-content">
         <div className="logo">
-          <h1>TrendTrunk</h1>
+          <img src={clickcartLogo} alt="ClickCart Logo" className="logo-img" />
         </div>
 
         <nav className="nav">
