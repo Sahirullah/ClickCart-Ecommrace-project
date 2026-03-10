@@ -452,15 +452,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 0.5rem;
-  flex-wrap: wrap;
+  gap: 0.75rem;
 }
 
 .product-actions {
   display: flex;
   gap: 0.5rem;
   align-items: center;
-  width: 100%;
 }
 
 .add-to-cart-btn {
@@ -484,21 +482,22 @@ body {
 }
 
 .order-now-btn {
-  flex: 1;
   background: var(--primary);
   color: white;
   border: none;
-  padding: 0.6rem 1rem;
+  padding: 0.6rem 1.2rem;
   border-radius: 6px;
   cursor: pointer;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   transition: all 0.3s ease;
+  white-space: nowrap;
 }
 
 .order-now-btn:hover {
   background: #ff8500;
   transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 149, 0, 0.3);
 }
 
 .favorite-btn {
