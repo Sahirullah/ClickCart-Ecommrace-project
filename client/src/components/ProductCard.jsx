@@ -51,7 +51,10 @@ function ProductCard({ product, onAddToCart }) {
         <p className="product-colors">{product.colors} Colour{product.colors > 1 ? 's' : ''}</p>
         
         <div className="product-footer">
-          <span className="product-price">{product.price}</span>
+          <div className="product-price-section">
+            <span className="product-price">{product.price}</span>
+            {product.originalPrice && <span className="product-original-price">{product.originalPrice}</span>}
+          </div>
           
           <div className="product-actions">
             <button 

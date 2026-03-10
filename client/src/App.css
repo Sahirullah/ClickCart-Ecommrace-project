@@ -427,6 +427,19 @@ body {
   color: var(--primary);
 }
 
+.product-price-section {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.product-original-price {
+  font-size: 0.85rem;
+  color: #999;
+  text-decoration: line-through;
+  font-weight: 600;
+}
+
 .compare-btn {
   background: none;
   border: 1px solid #e0e0e0;
@@ -462,10 +475,10 @@ body {
 }
 
 .add-to-cart-btn {
-  background: var(--bg-light);
+  background: var(--primary);
   border: none;
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   cursor: pointer;
   display: flex;
@@ -473,12 +486,14 @@ body {
   justify-content: center;
   transition: all 0.3s ease;
   font-weight: 600;
-  color: var(--text-dark);
+  color: white;
+  box-shadow: 0 2px 8px rgba(255, 149, 0, 0.2);
 }
 
 .add-to-cart-btn:hover {
-  background: var(--primary);
-  color: white;
+  background: #ff8500;
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(255, 149, 0, 0.3);
 }
 
 .order-now-btn {

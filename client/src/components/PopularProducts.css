@@ -115,13 +115,38 @@
   padding-top: 16px;
   border-top: 1px solid #f0f0f0;
   gap: 12px;
-  flex-wrap: wrap;
+}
+
+.product-price-section {
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
 
 .product-price {
   font-size: 18px;
   font-weight: 700;
   color: #ff9500;
+}
+
+.product-original-price {
+  font-size: 14px;
+  color: #999;
+  text-decoration: line-through;
+  font-weight: 500;
+}
+
+.product-price-section {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.product-original-price {
+  font-size: 14px;
+  color: #999;
+  text-decoration: line-through;
+  font-weight: 600;
 }
 
 .product-actions {
