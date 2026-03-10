@@ -38,9 +38,9 @@
 }
 
 .carousel-btn:hover {
-  border-color: #ff9500;
+  border-color: #dc143c;
   color: white;
-  background-color: #ff9500;
+  background-color: #dc143c;
 }
 
 .products-grid {
@@ -126,7 +126,7 @@
 .product-price {
   font-size: 18px;
   font-weight: 700;
-  color: #ff9500;
+  color: #dc143c;
 }
 
 .product-original-price {
@@ -161,7 +161,7 @@
   width: 40px;
   height: 40px;
   border: none;
-  background-color: #ff9500;
+  background-color: #dc143c;
   color: white;
   border-radius: 50%;
   cursor: pointer;
@@ -173,7 +173,7 @@
 }
 
 .add-to-cart:hover {
-  background-color: #ff7a00;
+  background-color: #b01030;
   transform: scale(1.15);
 }
 
@@ -181,7 +181,7 @@
   width: 40px;
   height: 40px;
   border: none;
-  background-color: #ff9500;
+  background-color: #dc143c;
   color: white;
   border-radius: 50%;
   cursor: pointer;
@@ -193,12 +193,12 @@
 }
 
 .add-to-cart-btn:hover {
-  background-color: #ff7a00;
+  background-color: #b01030;
   transform: scale(1.15);
 }
 
 .order-now-btn {
-  background: #ff9500;
+  background: #dc143c;
   color: white;
   border: none;
   padding: 8px 16px;
@@ -211,7 +211,7 @@
 }
 
 .order-now-btn:hover {
-  background: #ff7a00;
+  background: #b01030;
   transform: translateY(-2px);
 }
 
@@ -274,7 +274,7 @@
 }
 
 .compare-btn:hover {
-  background: #ff9500;
+  background: #dc143c;
   color: white;
   transform: scale(1.1);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);

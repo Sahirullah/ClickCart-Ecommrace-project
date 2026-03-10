@@ -5,7 +5,7 @@
 }
 
 :root {
-  --primary: #ff9500;
+  --primary: #dc143c;
   --secondary: #000;
   --text-dark: #1a1a1a;
   --text-light: #666;
@@ -427,6 +427,13 @@ body {
   color: var(--primary);
 }
 
+.product-original-price {
+  font-size: 0.85rem;
+  color: #999;
+  text-decoration: line-through;
+  font-weight: 500;
+}
+
 .product-price-section {
   display: flex;
   gap: 0.75rem;
@@ -491,9 +498,9 @@ body {
 }
 
 .add-to-cart-btn:hover {
-  background: #ff8500;
+  background: #b01030;
   transform: scale(1.1);
-  box-shadow: 0 4px 12px rgba(255, 149, 0, 0.3);
+  box-shadow: 0 4px 12px rgba(220, 20, 60, 0.3);
 }
 
 .order-now-btn {
@@ -510,9 +517,9 @@ body {
 }
 
 .order-now-btn:hover {
-  background: #ff8500;
+  background: #b01030;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(255, 149, 0, 0.3);
+  box-shadow: 0 4px 12px rgba(220, 20, 60, 0.3);
 }
 
 .favorite-btn {

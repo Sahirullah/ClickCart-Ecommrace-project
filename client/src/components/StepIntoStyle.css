@@ -63,7 +63,21 @@
 .style-price {
   font-size: 18px;
   font-weight: 700;
-  color: #ff9500;
+  color: #dc143c;
+}
+
+.style-price-section {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
+}
+
+.style-original-price {
+  font-size: 14px;
+  color: #999;
+  text-decoration: line-through;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
