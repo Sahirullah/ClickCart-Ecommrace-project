@@ -1,0 +1,124 @@
+.promo-section {
+  padding: 120px 0;
+  background: linear-gradient(135deg, #5b5bff 0%, #7b7bff 100%);
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.promo-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+  padding: 0 2rem;
+  position: relative;
+}
+
+.promo-image {
+  position: relative;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 2;
+}
+
+.blue-blob {
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.promo-img {
+  position: relative;
+  z-index: 2;
+  max-width: 350px;
+  height: auto;
+  border-radius: 24px;
+  filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.2));
+}
+
+.promo-text {
+  order: 1;
+}
+
+.promo-text h2 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+
+.promo-text p {
+  font-size: 16px;
+  margin-bottom: 32px;
+  line-height: 1.6;
+  opacity: 0.95;
+}
+
+.btn-primary {
+  background-color: white;
+  color: #5b5bff;
+  padding: 14px 32px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #ff9500;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.promo-badge {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  width: 120px;
+  height: 120px;
+  background-color: #ff9500;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  box-shadow: 0 12px 40px rgba(255, 149, 0, 0.4);
+  z-index: 3;
+}
+
+@media (max-width: 768px) {
+  .promo-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .promo-image {
+    order: 1;
+    height: 300px;
+  }
+
+  .promo-text {
+    order: 2;
+  }
+
+  .promo-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .blue-blob {
+    width: 250px;
+    height: 250px;
+  }
+}

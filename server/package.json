@@ -1,0 +1,13 @@
+{
+  "name": "click-cart-server",
+  "version": "1.0.0",
+  "description": "Backend server for Click Cart",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
