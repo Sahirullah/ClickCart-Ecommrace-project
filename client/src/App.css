@@ -372,6 +372,16 @@ body {
   background: var(--bg-light);
 }
 
+.product-badges {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 10;
+}
+
 .product-image {
   position: absolute;
   top: 0;
@@ -403,16 +413,54 @@ body {
   margin-bottom: 1rem;
 }
 
-.product-footer {
+.product-price-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 1rem;
+  gap: 0.5rem;
 }
 
 .product-price {
   font-size: 1rem;
   font-weight: 700;
   color: var(--primary);
+}
+
+.compare-btn {
+  background: none;
+  border: 1px solid #e0e0e0;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: all 0.3s ease;
+}
+
+.compare-btn:hover {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.product-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.product-actions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  width: 100%;
 }
 
 .add-to-cart-btn {
@@ -428,6 +476,77 @@ body {
   transition: all 0.3s ease;
   font-weight: 600;
   color: var(--text-dark);
+}
+
+.add-to-cart-btn:hover {
+  background: var(--primary);
+  color: white;
+}
+
+.order-now-btn {
+  flex: 1;
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.order-now-btn:hover {
+  background: #ff8500;
+  transform: translateY(-2px);
+}
+
+.favorite-btn {
+  position: relative;
+  background: white;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  color: #ff6b6b;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.favorite-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.favorite-btn.active {
+  background: #ff6b6b;
+  color: white;
+}
+
+.compare-btn {
+  background: white;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  color: var(--text-dark);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.compare-btn:hover {
+  background: var(--primary);
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* FIND PERFECT */
