@@ -7,7 +7,7 @@ export default function BottomPromo() {
         <div className="bottom-promo-content">
           <div className="bottom-promo-image">
             <div className="yellow-blob"></div>
-            <img src="https://via.placeholder.com/300x300?text=Person+Back" alt="Person" className="bottom-promo-img" />
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop" alt="Person" className="bottom-promo-img" />
           </div>
           <div className="bottom-promo-text">
             <h2>Step into Style with New Arrivals!</h2>

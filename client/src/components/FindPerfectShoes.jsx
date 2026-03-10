@@ -15,7 +15,7 @@ export default function FindPerfectShoes() {
           </div>
           <div className="find-image">
             <div className="orange-blob"></div>
-            <img src="https://via.placeholder.com/300x300?text=Person+with+Shoes" alt="Person" className="person-img" />
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&h=300&fit=crop" alt="Person" className="person-img" />
           </div>
         </div>
       </div>

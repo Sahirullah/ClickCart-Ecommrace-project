@@ -23,7 +23,7 @@ export default function Hero() {
             <div className="blob blob-3"></div>
           </div>
           <div className="hero-image">
-            <img src="https://via.placeholder.com/400x300?text=Featured+Shoe" alt="Featured Shoe" className="shoe-img" />
+            <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=400&h=300&fit=crop" alt="Featured Shoe" className="shoe-img" />
           </div>
           <div className="hero-badge">
             <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">

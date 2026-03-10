@@ -10,7 +10,7 @@ export default function FindPerfect() {
             <button className="btn-secondary">View All</button>
           </div>
           <div className="find-image">
-            <img src="https://via.placeholder.com/400x400?text=Perfect+Shoes" alt="Perfect Shoes" />
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop" alt="Perfect Shoes" />
           </div>
         </div>
       </div>

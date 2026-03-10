@@ -8,7 +8,7 @@ function ProductGrid({ onAddToCart }) {
       name: 'Nike Dunk Low',
       colors: 1,
       price: '$120',
-      image: 'https://via.placeholder.com/250x250?text=Nike+Dunk+Low',
+      image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=250&h=250&fit=crop',
       rating: 4.5
     },
     {
@@ -16,7 +16,7 @@ function ProductGrid({ onAddToCart }) {
       name: 'Air Jordan 1 Low',
       colors: 1,
       price: '$150',
-      image: 'https://via.placeholder.com/250x250?text=Air+Jordan+1',
+      image: 'https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=250&h=250&fit=crop',
       rating: 4.8
     },
     {
@@ -24,7 +24,7 @@ function ProductGrid({ onAddToCart }) {
       name: 'Nike Air Max Plus 3',
       colors: 1,
       price: '$180',
-      image: 'https://via.placeholder.com/250x250?text=Air+Max+Plus+3',
+      image: 'https://images.unsplash.com/photo-1556821552-5f63b1c2c723?w=250&h=250&fit=crop',
       rating: 4.6
     },
     {
@@ -32,7 +32,7 @@ function ProductGrid({ onAddToCart }) {
       name: 'Nike SB Dunk',
       colors: 2,
       price: '$140',
-      image: 'https://via.placeholder.com/250x250?text=Nike+SB+Dunk',
+      image: 'https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=250&h=250&fit=crop',
       rating: 4.7
     },
     {
@@ -40,7 +40,7 @@ function ProductGrid({ onAddToCart }) {
       name: 'Adidas Ultraboost',
       colors: 1,
       price: '$160',
-      image: 'https://via.placeholder.com/250x250?text=Adidas+Ultraboost',
+      image: 'https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=250&h=250&fit=crop',
       rating: 4.4
     },
     {
@@ -48,7 +48,7 @@ function ProductGrid({ onAddToCart }) {
       name: 'Puma RS-X',
       colors: 2,
       price: '$110',
-      image: 'https://via.placeholder.com/250x250?text=Puma+RS-X',
+      image: 'https://images.unsplash.com/photo-1595777712802-5d1d27be1dca?w=250&h=250&fit=crop',
       rating: 4.3
     },
     {
@@ -56,7 +56,7 @@ function ProductGrid({ onAddToCart }) {
       name: 'New Balance 990v6',
       colors: 1,
       price: '$190',
-      image: 'https://via.placeholder.com/250x250?text=New+Balance+990v6',
+      image: 'https://images.unsplash.com/photo-1608231387042-ec2604a01fca?w=250&h=250&fit=crop',
       rating: 4.9
     },
     {
@@ -64,7 +64,7 @@ function ProductGrid({ onAddToCart }) {
       name: 'Converse Chuck Taylor',
       colors: 3,
       price: '$65',
-      image: 'https://via.placeholder.com/250x250?text=Converse+Chuck',
+      image: 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=250&h=250&fit=crop',
       rating: 4.2
     }
   ]);

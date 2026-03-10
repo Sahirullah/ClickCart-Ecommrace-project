@@ -6,7 +6,7 @@ export default function LifestyleSection() {
       <div className="container">
         <div className="lifestyle-content">
           <div className="lifestyle-image">
-            <img src="https://via.placeholder.com/400x400?text=Lifestyle" alt="Lifestyle" />
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop" alt="Lifestyle" />
           </div>
           <div className="lifestyle-text">
             <h2>Live Your Best Life with Our Collection</h2>

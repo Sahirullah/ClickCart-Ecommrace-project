@@ -7,28 +7,28 @@ const products = [
     name: 'Nike Dunk Low',
     colors: 1,
     price: '$120',
-    image: 'https://via.placeholder.com/200x200?text=Nike+Dunk'
+    image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=200&h=200&fit=crop'
   },
   {
     id: 2,
     name: 'Air Jordan 1 Low',
     colors: 1,
     price: '$150',
-    image: 'https://via.placeholder.com/200x200?text=Air+Jordan'
+    image: 'https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=200&h=200&fit=crop'
   },
   {
     id: 3,
     name: 'Nike Air Max Plus 3',
     colors: 1,
     price: '$180',
-    image: 'https://via.placeholder.com/200x200?text=Air+Max'
+    image: 'https://images.unsplash.com/photo-1556821552-5f63b1c2c723?w=200&h=200&fit=crop'
   },
   {
     id: 4,
     name: 'Nike SB Dunk',
     colors: 2,
     price: '$140',
-    image: 'https://via.placeholder.com/200x200?text=Nike+SB'
+    image: 'https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=200&h=200&fit=crop'
   }
 ]
 

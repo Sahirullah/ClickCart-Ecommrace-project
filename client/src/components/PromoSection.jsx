@@ -9,7 +9,7 @@ export default function PromoSection() {
             <button className="btn-primary">Shop Nike</button>
           </div>
           <div className="promo-image">
-            <img src="https://via.placeholder.com/400x400?text=Nike+Promo" alt="Nike Promo" />
+            <img src="https://images.unsplash.com/photo-1556821552-5f63b1c2c723?w=400&h=400&fit=crop" alt="Nike Promo" />
           </div>
           <div className="promo-badge">
             <span>+</span>
